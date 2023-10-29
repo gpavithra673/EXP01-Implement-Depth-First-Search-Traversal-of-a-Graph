@@ -56,6 +56,7 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
 5. If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.
 
 ## PROGRAM:
+```
 python
 #import defaultdict
 from collections import defaultdict
@@ -80,7 +81,7 @@ path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
 
-
+```
 ### Sample Input:
 ![image](https://github.com/Aashima02/AI01-Implement-Depth-First-Search-Traversal-of-a-Graph/assets/93427086/fac182f3-6f35-4b25-b88e-5c33cebda4ed)
 
